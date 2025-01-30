@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > button {
+  width: 20%;
+}
+
+.formGroup {
+  display: flex;
+  gap: 8px;
+}
+
+.channelsList {
+  list-style: none;
+  padding: 0;
+}
+
+.channelItem {
+  text-align: center;
+  margin-bottom: 8px;
+  border: 1px solid #000;
+  padding: 20px 0;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.channelItem:hover {
+  background-color: #a3a3a3;
+}
+
+.foundUsers {
+  margin-top: 16px;
+  background-color: #f5f5f5;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.foundUsers h3 {
+  margin-top: 0;
+}

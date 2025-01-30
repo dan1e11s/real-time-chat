@@ -1,0 +1,28 @@
+.registerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.registerPageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+@media (max-width: 400px) {
+  .registerPageWrapper {
+    padding: 1rem;
+  }
+}
